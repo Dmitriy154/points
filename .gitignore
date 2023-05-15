@@ -1,0 +1,23 @@
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Android custom build folders
+android/
+
+# Dummy HTML5 export presets file for continuous integration
+!.github/dist/export_presets.cfg
+
+# System/tool-specific ignores
+.directory
+*~
+
+# Some cache files
+*cache*
+.godot/editor/filesystem_cache7
+.godot/editor/script_editor_cache.cfg
+.godot/uid_cache.bin
